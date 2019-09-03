@@ -4,6 +4,10 @@ class GdcmWithTool < Formula
   url "https://github.com/malaterre/GDCM/archive/v3.0.1.tar.gz"
   sha256 "f1ee8ebda7a465281abada329b4dbca6e036a42ead6ad58070ff4f94da7819d9"
 
+  bottle do
+    sha256 "808840f00ac44425f61c3ea176c5a50aa2160f4da9a1fa6bb6bd28b60e9cf79e" => :mojave
+  end
+
   depends_on "cmake" => :build
   depends_on "ninja" => :build
   depends_on "pkg-config" => :build
