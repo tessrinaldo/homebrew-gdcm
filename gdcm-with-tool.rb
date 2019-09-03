@@ -22,7 +22,7 @@ class Gdcm < Formula
 
     args = std_cmake_args + %W[
       -GNinja
-      -DGDCM_BUILD_APPLICATIONS=OFF
+      -DGDCM_BUILD_APPLICATIONS=ON
       -DGDCM_BUILD_SHARED_LIBS=ON
       -DGDCM_BUILD_TESTING=OFF
       -DGDCM_BUILD_EXAMPLES=OFF
