@@ -1,4 +1,4 @@
-class GdcmWithTools < Formula
+class Gdcm < Formula
     desc "Grassroots DICOM library and utilities for medical files, with commandline tools"
     homepage "https://sourceforge.net/projects/gdcm/"
     url "https://github.com/malaterre/GDCM/archive/v3.0.1.tar.gz"
