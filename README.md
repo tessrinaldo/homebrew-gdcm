@@ -11,7 +11,7 @@ This is equivalent to running:
 
 `brew tap tessrinaldo/homebrew-gdcm`
 
-then
-
 `brew install gdcm-with-tool`
+
+Note that this install is for `GDCM version 3.0.1`.
 
