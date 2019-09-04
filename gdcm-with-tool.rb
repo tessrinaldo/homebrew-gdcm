@@ -5,9 +5,9 @@ class GdcmWithTool < Formula
   sha256 "f1ee8ebda7a465281abada329b4dbca6e036a42ead6ad58070ff4f94da7819d9"
 
   bottle do
-    root_url "https://github.com/tessrinaldo/homebrew-gdcm/releases/v3.0.1"
-    rebuild 1
-    sha256 "10aa49a8ab557bb5d69eeea59bf9faca342b936989561d3b52e512a6cd7ab729" => :mojave
+    root_url "https://github.com/tessrinaldo/homebrew-gdcm/releases/v3.0.1/"
+    rebuild 2
+    sha256 "bfa6eb4986801835327692614b485cab7fc046883f89c357195f237b0231ae36" => :mojave
   end
 
   depends_on "cmake" => :build
