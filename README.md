@@ -1,4 +1,4 @@
-# GDCM with command line tools
+# `brew install` GDCM with command line tools
 The current `Homebrew/core` package for `GDCM` installs without the functionality 
 of command line tools such as `gdcmconv`, `gdcmanon`, `gdcmdiff`, and others. This is a modified 
 Homebrew formula that enables the use of command line tools by setting 
