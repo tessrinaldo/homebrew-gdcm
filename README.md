@@ -15,3 +15,5 @@ Or, equivalently:
 
 Note that this install is for `GDCM version 3.0.1`.
 
+*** 9/6/2019:*** My PR to get this changed merged into homebrew/core has been approved! So `brew install gdcm` now has this feature, rendering my tap obsolete.
+
